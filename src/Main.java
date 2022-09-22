@@ -14,7 +14,7 @@ public class Main
         else
         {
             System.out.println("Your shipping is $" + shipping);
-            System.out.println("Your Tota is $" + itemPrice + shipping);
+            System.out.println("Your Tota is $" + (itemPrice + shipping));
         }
 
 
